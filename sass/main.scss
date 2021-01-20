@@ -1,0 +1,481 @@
+@import "vars";
+@import "model";
+@import "swiper";
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Montserrat', sans-serif;
+    background-color: $primary;
+}
+a{
+    text-decoration: none;
+    margin:0;
+}
+p{
+    margin: 0;
+}
+/*PRELOADER*/
+.preloader{
+	position: fixed;
+	left: 0;
+	top:0;
+	width: 100%;
+	height:100%;
+	z-index: 1000;
+	background-color: $primary;
+	transition: 1s all;
+	opacity: 1;
+	visibility: visible;
+	text-align: center;
+}
+.done{
+	opacity: 0;
+	visibility: hidden;
+}
+/*HEADER*/
+.header{
+    width: 100%;
+    min-height: 100px;
+    background-color:  rgba(255,255,255,0.9);
+    position: fixed;
+    z-index: 1;
+}
+.header__logo{
+    color: $secondary;
+    font-size: 34px;
+    font-weight: 600;
+    height: 100px;
+    line-height: 100px;
+}
+.inner__header{
+    width: 1400px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    min-height: 100px;
+}
+
+/*MENU*/
+#menu{
+    display: none;
+}
+.menu{
+    margin-right: 18%;
+    min-height: 100px;
+    width: 800px;
+    line-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.menu__link{
+    color:$secondary;
+    font-weight: 700;
+    font-size: 18px;
+    padding:0px 25px;
+    transition: .5s;
+}
+.burger{
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+.menu__label{
+    width: 45px;
+    height: 45px;
+    display: none;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+/*STARTPAGE*/
+.start__page{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/dest/boots2.jpg');
+    background-size: 100% 100%;
+    position: relative;
+    margin:0;
+    padding:0;
+}
+.start__page_text{
+    width: 1400px;
+    margin:0 auto;
+    padding-top: 300px;
+}
+.start__page_title{
+    color:$primary;
+    font-size: 72px;
+    font-weight: 600;
+    margin:0;
+    padding:0;
+}
+.start__page_btn{
+    font-size:$btn;
+    display: block;
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color:$primary;
+    border: 2px solid $primary;
+    margin-top: 100px;
+    transition: .7s;
+}
+.start__page_btn:hover{
+    background-color: $primary;
+    color:$secondary;
+    transition: .7s;
+}
+.menu__link:hover{
+    background-color: rgba(0,0,0,0.4);
+    transition: .5s;
+    color:$primary;
+}
+
+/*ABOUT*/
+.about{
+    width: 1400px;
+    margin: 0 auto;
+    min-height: 600px;
+    padding-top:200px;
+    background-color: $primary;
+    display: flex;
+    justify-content: space-between;
+}
+.about__left{
+    width: 600px;
+    min-height: 600px;
+}
+
+.about__right{
+    width: 640px;
+    min-height: 600px;
+}
+.about__title{
+    font-size:$title;
+    margin:0;
+    font-weight:600;
+    color:$secondary;
+}
+.about__subtitle{
+    display: block;
+    font-size:$sub;
+    color:$text;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-top: 20px;
+}
+.about__btn{
+    display: block;
+    width: 300px;
+    height: 60px;
+    border:2px solid $secondary;
+    text-align: center;
+    line-height: 60px;
+    font-size:$btn;
+    color:$secondary;
+    font-weight: 600;
+    margin-top: 80px;
+    transition: .7s;
+}
+.about__btn:hover{
+    background-color: $secondary;
+    color:$primary;
+    transition: .7s;
+}
+.about__right_icon{
+    width: 43px;
+    height: 43px;
+}
+.about__right_row{
+    width: 100%;
+    min-height: 270px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.about__card{
+    width: 280px;
+    min-height: 270px;
+    transition: .2s;
+    cursor: default;
+}
+.about__card_title{
+    font-size: $titc;
+    font-weight: 600;
+    color:$secondary;
+    margin:0;
+    margin-top:10px;
+    margin-bottom: 15px;
+}
+.about__card_subtitle{
+    font-size:$sub;
+    margin-top: 0;
+    color:$text;
+}
+.about__card:hover{
+    margin-top:-5px;
+    transition: .2s;
+}
+
+/*KATALOG*/
+
+.katalog{
+    width: 1400px;
+    margin:0 auto;
+    min-height: 700px;
+    padding-top:200px;
+}
+.katalog__title{
+    font-size:$title;
+    margin:0;
+    font-weight:600;
+    color:$secondary; 
+}
+.prod-img{
+    width: 100%;
+    height: 100%;
+}
+.katalog__box{
+    width: 100%;
+    min-height: 1140px;
+}
+.katalog__box_row{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.product{
+    width: 400px;
+    height: 500px;
+    border:1px solid rgba(0,0,0,0.12);
+    overflow: hidden;
+    transition: .5s;
+}
+.product:hover{
+    box-shadow: 0 0 20px rgba(0,0,0,0.25);
+    transition: .5s;
+}
+.product__image{
+    width: 400px;
+    height: 300px;
+    overflow: hidden;  
+}
+.product_info{
+    width: 400px;
+    height: 200px;
+}
+.product__title{
+    color:$secondary;
+    font-size: $titc;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-color: $primary;
+    line-height: 60px;
+    text-align: center;
+}
+.product__subtitle{
+    width: 360px;
+    height: 100px;
+    padding:20px;
+}
+.product__price{
+    display: block;
+    margin-top:5px;
+    color:$text;
+    font-weight: 600;
+    font-size: $price;
+}
+.product__btn{
+    display: block;
+    width: 360px;
+    height: 40px;
+    border:2px solid $secondary;
+    font-size: 18px;
+    text-align: center;
+    line-height: 40px;
+    margin:0 auto;
+    margin-top: 22px;
+    color: $secondary;
+    font-weight: 500;
+    transition: .7s;
+    margin-left:-2px;
+}
+.product__btn:hover{
+    color:$primary;
+    background-color: $secondary;
+    transition: .7s;
+}
+
+/*DELIVERY*/
+
+.delivery{
+    width: 1400px;
+    min-height: 700px;
+    padding-top:200px;
+    margin: 0 auto;
+}
+.delivery__title{
+    font-size:$title;
+    margin:0;
+    font-weight:600;
+    color:$secondary; 
+}
+.delivery__icon{
+    width: 50px;
+    height: 50px;
+}
+.delivery__box{
+    width: 1300px;
+    margin: 0 auto;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.delivery__card{
+    width: 300px;
+    height: 400px;
+}
+.delivery__card_title{
+    font-size:$titc;
+    color:$secondary;
+    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.delivery__card_subtitle{
+    font-size:$subd;
+    color: $text;
+    margin-bottom: 40px;
+}
+.delivery__card_info{
+    display: flex;
+    margin-bottom: 15px;
+}
+.delivery__card_text{
+    display: block;
+    font-size: $lines;
+    font-weight: 500;
+    color:$text;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 15px;
+}
+.delivery__card_svg{
+    width: 30px;
+    height: 30px;
+}
+
+/*CONTACT*/
+.contact{
+    width: 1400px;
+    min-height: 500px;
+    padding-top: 200px;
+    margin: 0 auto;
+}
+.contact__title{
+    font-size:$title;
+    margin:0;
+    font-weight:600;
+    color:$secondary; 
+}
+.contact__box{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.contact__card{
+    width: 300px;
+    height: 170px;
+}
+.contact__card_title{
+    font-size: $price;
+    display: block;
+    font-weight: 600;
+    margin-right: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+.contact__card_info{
+    display: flex;
+    margin-top: 10px;
+    font-size: $lines;
+    font-weight: 500;
+    color:$text;
+}
+.number__type{
+    color:$secondary;
+    margin-right: 15px;
+}
+.contact__card_top{
+    display: flex;
+    margin-bottom: 30px;
+}
+.number__link{
+    color:$text;
+}
+.contact__img{
+    width: 30px;
+    height: 30px;
+}
+
+/*MAP*/
+.map{
+    margin-bottom: 200px;
+}
+
+/*FOOTER*/
+.footer{
+    width:100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.8);
+}
+.footer__inner{
+    width: 1400px;
+    margin:0 auto;
+    height: 100px;
+    line-height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__info{
+    display: block;
+    color:$primary;
+    font-size: $lines;
+}
+.footer__logo{
+    color: $primary;
+    font-size: 34px;
+    font-weight: 600;
+    height: 100px;
+    line-height: 100px;
+}
+.footer__icon{
+    width: 45px;
+    height: 45px;
+}
+.footer__icon:hover{
+    fill:red;
+}
+.footer__icons{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.link__icon{
+    margin-top: 17px;
+    height: 55px;
+}
+@import "adaptive";

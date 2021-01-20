@@ -1,0 +1,114 @@
+/*HEADER MODEL*/
+.header_model{
+    width: 100%;
+    min-height: 100px;
+    position: fixed;
+    z-index: 999;
+    background-color: rgba(255,255,255,0.9);
+}
+.menu_model__link{
+    display: block;
+    height: 100px;
+    line-height: 100px;
+    color:$secondary;
+    font-weight: 700;
+    font-size: 18px;
+    padding:0px 25px;
+    transition: .5s;
+}
+.menu_model__link:hover{
+    background-color: rgba(0,0,0,0.4);
+    transition: .5s;
+    color:$primary;
+}
+
+/*MODEL*/
+.container_model{
+    width: 100%;
+    min-height:100vh;
+    position: relative;
+    overflow: hidden;
+}
+.model{
+    width: 1400px;
+    min-height: 550px;
+    margin:0 auto;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 126px;
+}
+.model__sidebar{
+    width: 650px;
+    min-height: 550px;
+    overflow: hidden;
+
+}
+.swiper__slide_photo{
+    width: 100%;
+    height: 100%;
+}
+.model__title{
+    display: block;
+    width: 1400px;
+    margin:0 auto;
+    font-size: $title;
+    margin-top: 150px;
+    font-weight: 500;
+}
+.model__price{
+    font-size: $price;
+    font-weight: 500;
+    color:$text;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.model__size{
+    color: $secondary;
+    font-size: $btn;
+    font-weight: 500;
+}
+.model__info_title{
+    display: block;
+    font-size: $price;
+    color:$secondary;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.model__info{
+    display: flex;
+    margin-top: 15px;
+}
+.model__info_subtitle{
+    color:$text;
+    font-weight: 400;
+    font-size: $sub;
+}
+.model__info_text{
+    margin-left: 10px;
+    font-size: $sub;
+    font-weight: 400;
+    color:$text;
+}
+.model__info_add{
+    color:$text;
+    font-size: $sub;
+}
+.model__btn{
+    display: block;
+    width: 300px;
+    height: 60px;
+    border:2px solid $secondary;
+    text-align: center;
+    line-height: 60px;
+    font-size:$btn;
+    color:$secondary;
+    font-weight: 600;
+    margin-top: 35px;
+    transition: .7s;
+}
+.model__btn:hover{
+    background-color: $secondary;
+    color:$primary;
+    transition: .7s;
+}

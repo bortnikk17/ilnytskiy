@@ -1,0 +1,890 @@
+@media screen and (max-width:1600px){
+/*HEADER*/
+.inner__header{
+    width: 1100px;
+}
+
+/*MENU*/
+.menu{
+    margin-right: 0%;
+}
+    
+/*STARTPAGE*/
+.start__page_text{
+    width: 1100px;
+    padding-top: 250px;
+}
+.start__page_title{
+    font-size: 68px;
+}
+    .start__page_btn{
+    font-size:$btna;
+}
+/*ABOUT*/
+.about{
+    width: 1100px;
+    margin: 0 auto;
+    min-height: 520px;
+    padding-top:170px;
+    background-color: $primary;
+    display: flex;
+    justify-content: space-between;
+}
+.about__left{
+    width: 450px;
+    min-height: 520px;
+}
+
+.about__right{
+    width: 540px;
+    min-height: 520px;
+}
+.about__title{
+    font-size:$titlea;
+}
+.about__subtitle{
+    font-size:$suba;
+}
+.about__btn{
+    margin-top: 60px;
+}
+.about__right_icon{
+    width: 38px;
+    height: 38px;
+}
+.about__right_row{
+    min-height: 230px;
+}
+.about__card{
+    width: 220px;
+    min-height: 230px;
+}
+.about__card_title{
+    font-size: $titca;
+}
+.about__card_subtitle{
+    font-size:$suba;
+}
+.about__btn{
+    font-size:$btna;
+}
+    
+/*KATALOG*/
+.katalog{
+    width: 1100px;
+    padding-top:150px;
+}
+.katalog__title{
+    font-size:$titlea;
+}
+.prod-img{
+    width: 100%;
+    height: 100%;
+}
+.katalog__box{
+    width: 100%;
+    min-height: 100px;
+}
+.katalog__box_row{
+    height: 430px;
+    margin-top: 80px;
+}
+.product{
+    width: 300px;
+    height: 400px;
+}
+.product__image{
+    width: 300px;
+    height: 230px;
+    overflow: hidden;  
+}
+.product_info{
+    width: 300px;
+    height: 170px;
+}
+.product__title{
+    font-size: $titca;
+}
+.product__subtitle{
+    width: 260px;
+    height: 90px;
+    padding:0px 20px;
+}
+.product__price{
+    font-size: $pricea;
+}
+.product__btn{
+    width: 260px;
+    font-size: $lines;
+    margin-top: 19px;
+}
+    
+    /*DELIVERY*/
+
+.delivery{
+    width: 1100px;
+    min-height: 600px;
+    padding-top:150px;
+}
+.delivery__title{
+    font-size:$titlea; 
+}
+.delivery__icon{
+    width: 45px;
+    height: 45px;
+}
+.delivery__box{
+    width: 1000px;
+    height: 350px;
+}
+.delivery__card{
+    width: 250px;
+    height: 350px;
+}
+.delivery__card_title{
+    font-size:$titca;
+    margin-bottom: 25px;
+}
+.delivery__card_subtitle{
+    font-size:$lines;
+    margin-bottom: 25px;
+}
+.delivery__card_info{
+    margin-bottom: 15px;
+}
+
+/*CONTACT*/
+.contact{
+    width: 1100px;
+    min-height: 500px;
+    padding-top: 150px;
+    margin: 0 auto;
+}
+.contact__title{
+    font-size:$titlea;
+}
+.contact__card{
+    width: 230px;
+}
+.contact__card_title{
+    font-size: $pricea;
+}
+.contact__card_info{
+    font-size: $lines;
+}
+.number__type{
+    font-size: $lines;
+}
+.number__link{
+    font-size: $lines;
+}
+    
+/*FOOTER*/
+.footer{
+    width:100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.8);
+}
+.footer__inner{
+    width: 1100px;
+    margin:0 auto;
+    height: 100px;
+    line-height: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__info{
+    display: block;
+    color:$primary;
+    font-size: $lines;
+}
+.footer__logo{
+    color: $primary;
+    font-size: 34px;
+    font-weight: 600;
+    height: 100px;
+    line-height: 100px;
+}
+.footer__icon{
+    width: 45px;
+    height: 45px;
+}
+.footer__icon:hover{
+    fill:red;
+}
+.footer__icons{
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.link__icon{
+    margin-top: 17px;
+    height: 55px;
+}
+    
+    /*MODEL*/
+    
+    /*MODEL*/
+
+.model{
+    width: 650px;
+    min-height: 550px;
+    margin:0 auto;
+    margin-top: 80px;
+    display: block;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-bottom: 126px;
+}
+.model__sidebar{
+    width: 650px;
+    height: 550px;
+    margin-top: 60px;
+
+}
+.swiper__slide_photo{
+    width: 100%;
+    height: 100%;
+}
+.model__title{
+    display: block;
+    width: 1100px;
+    margin:0 auto;
+    font-size: $title;
+    margin-top: 150px;
+    font-weight: 500;
+}
+.model__price{
+    font-size: $price;
+    font-weight: 500;
+    color:$text;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.model__size{
+    color: $secondary;
+    font-size: $btn;
+    font-weight: 500;
+}
+.model__info_title{
+    display: block;
+    font-size: $price;
+    color:$secondary;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.model__info{
+    display: flex;
+    margin-top: 15px;
+}
+.model__info_subtitle{
+    color:$text;
+    font-weight: 400;
+    font-size: $sub;
+}
+.model__info_text{
+    margin-left: 10px;
+    font-size: $sub;
+    font-weight: 400;
+    color:$text;
+}
+.model__info_add{
+    color:$text;
+    font-size: $sub;
+}
+.model__btn{
+    display: block;
+    width: 300px;
+    height: 60px;
+    border:2px solid $secondary;
+    text-align: center;
+    line-height: 60px;
+    font-size:$btn;
+    color:$secondary;
+    font-weight: 600;
+    margin-top: 35px;
+    transition: .7s;
+}
+.model__btn:hover{
+    background-color: $secondary;
+    color:$primary;
+    transition: .7s;
+}
+}
+
+@media screen and (max-width:1200px){
+    /*HEADER*/
+.inner__header{
+    width:980px;
+}
+
+/*MENU*/
+.menu{
+    margin-right: 0%;
+    width: 700px;
+}
+/*STARTPAGE*/
+.start__page{
+    width: 100%;
+    height: 100vh;
+    background: url('../images/dest/boots2.jpg');
+    background-size: 100% 100%;
+    position: relative;
+    margin:0;
+    padding:0;
+}
+.start__page_text{
+    width: 980px;
+}
+.start__page_title{
+    font-size: 62px;
+}
+    
+/*ABOUT*/
+.about{
+    width: 980px;
+    display: block;
+    justify-content: space-between;
+}
+.about__left{
+    width:100%;
+    min-height: 360px;
+}
+
+.about__right{
+    margin:0 auto;
+    width: 670px;
+    min-height:500px;
+}
+    
+/*KATALOG*/
+.katalog{
+    width: 980px;
+}
+
+    /*DELIVERY*/
+.delivery{
+    width: 980px;
+}
+
+/*CONTACT*/
+.contact{
+    width: 980px;
+}
+    
+/*FOOTER*/
+.footer__inner{
+    width: 980px;
+}   
+}
+
+@media screen and (max-width:1100px){
+        /*HEADER*/
+.inner__header{
+    width:900px;
+}
+    
+/*STARTPAGE*/
+.start__page_text{
+    width: 900px;
+    padding-top: 300px;
+}
+.start__page_title{
+    font-size: 62px;
+}
+    
+/*ABOUT*/
+.about{
+    width: 900px;
+    display: block;
+    justify-content: space-between;
+}
+    
+/*KATALOG*/
+.katalog{
+    width: 980px;
+}
+.katalog__box_row{
+    display: block;
+    min-height: 1800px;
+}
+.product{
+    width: 500px;
+    height: 550px;
+    border:1px solid rgba(0,0,0,0.12);
+    overflow: hidden;
+    transition: .5s;
+    margin:0 auto;
+    margin-bottom: 70px;
+}
+.product__image{
+    width: 500px;
+    height: 350px;
+    overflow: hidden; 
+}
+.product_info{
+    width: 500px;
+    height: 150px;
+}
+.product__title{
+    font-size: $titca;
+    width: 460px;
+}
+.product__subtitle{
+    width: 460px;
+    height: 120px;
+    padding:0px 20px;
+}
+.product__price{
+    font-size: $pricea;
+    margin-top: 19px;
+}
+.product__btn{
+    width: 460px;
+    font-size: $lines;
+    margin-top: 32px;
+}
+    
+
+    /*DELIVERY*/
+.delivery{
+    width: 900px;
+}
+      /*DELIVERY*/
+
+.delivery__box{
+    width: 900px;
+}
+
+/*CONTACT*/
+.contact{
+    width: 900px;
+}
+    
+/*FOOTER*/
+.footer__inner{
+    width: 900px;
+}
+}
+
+@media screen and (max-width:980px){
+    /*HEADER*/
+.header{
+    width: 100%;
+    min-height: 140px;
+    background-color:  rgba(255,255,255,0.9);
+    position: fixed;
+    z-index: 1;
+}
+.header__logo{
+    display: block;
+    margin:0 auto;
+    text-align: center;
+    color: $secondary;
+    font-size: 60px;
+    font-weight: 600;
+    height: 140px;
+    line-height: 140px;
+}
+.inner__header{
+    width: 85%;
+    margin:0 auto;
+    display: block;
+    min-height: 100px;
+}
+    /*MODEL*/
+    .menu_model__link{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    color:$secondary;
+    font-weight: 700;
+    font-size: 32px;
+    padding:0px 0px;
+    transition: .5s;
+    margin-bottom: 30px;
+}
+    .model{
+    width: 800px;
+    min-height: 1700px;
+}
+    .model__sidebar{
+    width: 800px;
+    min-height: 790px;
+}
+    .model__title{
+    width: 800px;
+    font-size: $titlem;
+}
+    .model__info_text{
+    font-size: $subm;
+}
+    .model__price{
+    font-size: $pricem;
+    margin-top:80px;
+    margin-bottom: 40px;
+}
+    .model__size{
+    font-size: $subm;
+}
+    .model__info_title{
+    font-size: $dodm;
+}
+    .model__info_subtitle{
+    font-size: $subm;
+}
+    .model__info_add{
+    font-size: $subm;
+}
+    .model__btn{
+    width: 355px;
+    height: 80px;
+    line-height: 80px;
+    font-size:$subm;
+
+}
+.swiper-button-prev, .swiper-button-next {
+    top:255px;
+    font-size: 56px;
+}
+    .swiper-container {
+    width: 800px;
+    height: 570px;
+}
+    .swiper-slide {
+  width: 800px;
+  height: 570px;
+}
+    .swiper-wrapper {
+  width: 800px;
+  height: 570px;
+}
+
+
+/*MENU*/
+.menu{
+    margin-right: 0%;
+    min-height: 100px;
+    width: 100%;
+    line-height: 100px;
+    display: none;
+    justify-content: space-between;
+}
+.menu__link{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color:$secondary;
+    font-size: 32px;
+    padding:0px 0px;
+    margin-bottom: 45px;
+}
+    .model__title{
+    width: 800px;
+    margin-top: 350px;
+    font-size: $titlem;
+}
+
+    .menu__label{
+    position: absolute;
+    top:50px;
+    right: 60px;
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+    #menu:checked~ .menu{
+    display: block;    
+}
+    
+/*STARTPAGE*/
+.start__page{
+    width: 100%;
+    height: 850px;
+    background: url('../images/dest/boots2.jpg');
+    background-size: 100% 100%;
+    position: relative;
+    margin:0;
+    padding:0;
+}
+.start__page_text{
+    width: 800px;
+    margin:0 auto;
+    padding-top: 300px;
+}
+.start__page_title{
+    color:$primary;
+    font-size: 82px;
+    font-weight: 600;
+    margin:0;
+    padding:0;
+}
+.start__page_btn{
+    font-size:$subm;
+    display: block;
+    width: 380px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    color:$primary;
+    border: 2px solid $primary;
+    margin-top: 80px;
+    transition: .7s;
+}
+    
+    /*ABOUT*/
+.about{
+    width: 980px;
+    display: block;
+    justify-content: space-between;
+}
+.about__left{
+    width:800px;
+    margin:0 auto;
+    min-height: 360px;
+}
+
+.about__right{
+    margin:0 auto;
+    width: 800px;
+    min-height:500px;
+    margin-top: 100px;
+}
+    
+.about__title{
+    font-size:$titlem;
+}
+.about__subtitle{
+    font-size:$subm;
+}
+.about__btn{
+    margin-top: 60px;
+}
+.about__right_icon{
+    width: 50px;
+    height: 50px;
+}
+.about__right_row{
+    min-height: 230px;
+    margin-top: 70px;
+}
+.about__card{
+    width: 350px;
+    min-height: 230px;
+}
+.about__card_title{
+    font-size: $titcm;
+}
+.about__card_subtitle{
+    font-size:$subm;
+}
+.about__btn{
+    font-size:$subm;
+    width:380px;
+    height: 80px;
+    line-height: 80px;
+}
+    
+ /*KATALOG*/
+.katalog{
+    width: 800px;
+    padding-top: 160px;
+}
+.katalog__box_row{
+    display: block;
+    min-height: 2700px;
+}
+.product{
+    width: 800px;
+    height: 850px;
+    border:1px solid rgba(0,0,0,0.12);
+    overflow: hidden;
+    transition: .5s;
+    margin:0 auto;
+    margin-bottom: 70px;
+}
+.product__image{
+    width: 800px;
+    height: 550px;
+    overflow: hidden; 
+}
+.product_info{
+    width: 700px;
+    height: 300px;
+}
+.product__title{
+    font-size: $model;
+    width: 760px;
+}
+.product__subtitle{
+    width: 760px;
+    height: 120px;
+    padding:0px 60px;
+}
+.product__price{
+    font-size: $pricem;
+    margin-top: 25px;
+}
+.product__btn{
+    width:680px;
+    font-size: $subm;
+    margin-top:34px;
+    height: 80px;
+    line-height:80px;
+}
+    .katalog__title{
+    font-size:$titlem;
+}
+       
+ /*DELIVERY*/
+
+.delivery{
+    width: 800px;
+    min-height: 600px;
+    padding-top:200px;
+}
+.delivery__title{
+    font-size:$titlem; 
+}
+.delivery__icon{
+    width: 80px;
+    height: 80px;
+}
+.delivery__box{
+    width: 800px;
+    height: 1800px;
+    display: block;
+}
+.delivery__card{
+    width: 600px;
+    height: 550px;
+    margin:0 auto;
+    margin-top:50px;
+}
+.delivery__card_title{
+    font-size:$titcm;
+    margin-bottom: 25px;
+}
+.delivery__card_subtitle{
+    font-size:$subm;
+    margin-bottom: 25px;
+}
+.delivery__card_info{
+    margin-bottom: 15px;
+}
+.delivery__card_text{
+    display: block;
+    font-size: $subm;
+    font-weight: 500;
+    color:$text;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 15px;
+}
+.delivery__card_svg{
+    width: 50px;
+    height: 50px;
+}
+    
+    /*CONTACT*/
+.contact{
+    width: 800px;
+    min-height: 1400px;
+    padding-top: 200px;
+    margin: 0 auto;
+}
+.contact__title{
+    font-size:$titlem;
+    margin:0;
+    font-weight:600;
+    color:$secondary; 
+}
+.contact__box{
+    width: 100%;
+    height: 170px;
+    display: block;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.contact__card{
+    width: 450px;
+    height: 370px;
+    margin:0 auto;
+}
+.contact__card_title{
+    font-size: $pricem;
+    display: block;
+    font-weight: 600;
+    margin-right: 20px;
+    height: 50px;
+    line-height: 50px;
+}
+.contact__card_info{
+    display: flex;
+    margin-top: 10px;
+    font-size: $subm;
+    font-weight: 500;
+    color:$text;
+}
+.number__type{
+    color:$secondary;
+    margin-right: 15px;
+    font-size: $subm;
+}
+.contact__card_top{
+    display: flex;
+    margin-bottom: 30px;
+}
+.number__link{
+    color:$text;
+    font-size: $subm;
+}
+.contact__img{
+    width: 50px;
+    height: 50px;
+}
+    /*FOOTER*/
+.footer{
+    width:100%;
+    height: 160px;
+    background-color: rgba(0,0,0,0.8);
+}
+.footer__inner{
+    width: 800px;
+    margin:0 auto;
+    height: 160px;
+    line-height: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__info{
+    width: 600px;
+    display: block;
+    color:$primary;
+    font-size: $subm;
+}
+.footer__logo{
+    color: $primary;
+    font-size: 54px;
+    font-weight: 600;
+    height: 160px;
+    line-height: 160px;
+}
+.footer__icon{
+    width: 45px;
+    height: 45px;
+}
+.footer__icon:hover{
+    fill:red;
+}
+.link__icon{
+    margin-top: 10px;
+    height: 55px;
+    display: none;
+}
+
+}
